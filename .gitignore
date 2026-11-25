@@ -1,0 +1,72 @@
+# Local datasets, dependencies and research history
+/.local/
+/example data/
+
+# Raw image data and saved MATLAB data
+*.[tT][iI][fF]
+*.[tT][iI][fF][fF]
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.nd2
+*.czi
+*.im7
+*.mat
+
+# Generated build files and binaries (package exceptions below)
+/build/
+*.mex*
+*.dll
+*.lib
+*.exe
+*.obj
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.pdb
+*.ptx
+*.cubin
+
+# Tests, validation records and research output
+test/
+tests/
+validation/
+results/
+benchmarks/
+experiments/
+test_*
+verify_*
+validate_*
+*_test.cpp
+*_tests.cpp
+*.log
+*.fig
+
+# MATLAB backups and local editor/build configuration
+*.asv
+*.m~
+.vs/
+.vscode/
+CMakeUserPresets.json
+
+# Packaged Windows binaries: keep this allow-list after general exclusions.
+/bin/*
+!/bin/README.md
+!/bin/manifest.json
+!/bin/licenses/
+!/bin/cpu/
+/bin/cpu/*
+!/bin/cpu/defocus_cpu_mex.mexw64
+!/bin/cpu/cpu_refresh_mex.mexw64
+!/bin/cpu/workflow_pool_mex.mexw64
+!/bin/cuda/
+/bin/cuda/*
+!/bin/cuda/candidates_uint16_mex.mexw64
+!/bin/cuda/resident_mex.mexw64
+!/bin/cuda/runtime.zip.001
+!/bin/cuda/runtime.zip.002
+!/bin/cuda/runtime.zip.003
+!/bin/cuda/runtime.zip.004

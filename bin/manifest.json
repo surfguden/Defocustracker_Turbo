@@ -1,0 +1,85 @@
+{
+  "format_version": 1,
+  "platform": "win64",
+  "matlab_release": "R2026a",
+  "matlab_version": "26.1.0.3276743",
+  "compiler": "MSVC 19.44.35222.0",
+  "cuda_toolkit": "13.4.92",
+  "cuda_architectures": [
+    "sm_120"
+  ],
+  "opencv_version": "4.13.0",
+  "cpu_requires_cuda": false,
+  "modules": [
+    {
+      "path": "bin/cpu/cpu_refresh_mex.mexw64",
+      "bytes": 11573760,
+      "sha256": "2a766fe1b2dfe3bf57fe1835e777ee15ce7bce9797812412fe6dcfec3e6d1631"
+    },
+    {
+      "path": "bin/cpu/defocus_cpu_mex.mexw64",
+      "bytes": 11310592,
+      "sha256": "dfb7743d4a1da58272d97f5a1c5348de865252137d932e20eec6d6a57a2cc6f0"
+    },
+    {
+      "path": "bin/cpu/workflow_pool_mex.mexw64",
+      "bytes": 11563520,
+      "sha256": "6f76cad3a4f7560e8f24b92beeecd7d7389046e1d874e4c1435602b587176fd9"
+    },
+    {
+      "path": "bin/cuda/candidates_uint16_mex.mexw64",
+      "bytes": 640000,
+      "sha256": "131524044a9c0ba29eba44a729a54df02b782eab7e5006ea3c2bd8084378c365"
+    },
+    {
+      "path": "bin/cuda/resident_mex.mexw64",
+      "bytes": 1139200,
+      "sha256": "04a4aca21a9cbca71dd9ecc0a79251f43c35a86db679cf65a9ee3c0b90d7b1f4"
+    }
+  ],
+  "runtime": {
+    "format": "split-zip",
+    "sha256": "c7043c19b820b206a272770b2e5d8dc54adfdbdbfb13df343e850a318fe4d10f",
+    "archive_bytes": 209113731,
+    "unpacked_bytes": 348951264.0,
+    "parts": [
+      {
+        "name": "runtime.zip.001",
+        "bytes": 67108864,
+        "sha256": "4cb6927654ae879f4b1934fa5e33d51bac658f0493ff9b8050823c9c47fa661c"
+      },
+      {
+        "name": "runtime.zip.002",
+        "bytes": 67108864,
+        "sha256": "c53d2792ac3cb547e35c3412542d2d6bf34763be92827b1e48a9f598b2b00396"
+      },
+      {
+        "name": "runtime.zip.003",
+        "bytes": 67108864,
+        "sha256": "f7882ca01ad405ce5f808d8e27f5a9d42fb04d4f9b4c9c427c437c16f438a509"
+      },
+      {
+        "name": "runtime.zip.004",
+        "bytes": 7787139,
+        "sha256": "9d7ba1e0c30719c61cf9760f96b9deecfb317fb9b370227d90b83880affc189f"
+      }
+    ],
+    "files": [
+      {
+        "name": "cufft64_12.dll",
+        "bytes": 232604272,
+        "sha256": "d353fd42da7729709864731f35888aa177793d2350e56557df4c6ebaaf079ace"
+      },
+      {
+        "name": "nvJitLink_130_0.dll",
+        "bytes": 97119344,
+        "sha256": "6044faf21b4979502588ff9319521dd21a42b9068239d3291e53bc5a063b09bf"
+      },
+      {
+        "name": "opencv_core4130.dll",
+        "bytes": 19227648,
+        "sha256": "c4617c37583d261249aebe6aa441ba6bcc31fb45f58354ad463db2b02101bfcc"
+      }
+    ]
+  }
+}
